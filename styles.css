@@ -99,7 +99,7 @@ body, html {
     50% { transform: translateY(-15px); }
   }
 
-  .pixel-character {
+  .pixel-character-emilio-1 {
     position: absolute;
     left: 15%;
     bottom: 20px;
@@ -108,4 +108,105 @@ body, html {
     image-rendering: pixelated;
     z-index: 2;
   }
+  .pixel-character-ale-1 {
+    position: absolute;
+    left: 30%;
+    bottom: 20px;
+    width: 230px; /* Tamaño del personaje */
+    height: auto;
+    image-rendering: pixelated;
+    z-index: 2;
+  }
+  .pixel-character-emilio-3 {
+    position: absolute;
+    left: 35%;
+    bottom: 20px;
+    width: 250px; /* Tamaño del personaje */
+    height: auto;
+    image-rendering: pixelated;
+    z-index: 2;
+  }
+  .pixel-character-ale-3 {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    width: 220px; /* Tamaño del personaje */
+    height: auto;
+    image-rendering: pixelated;
+    z-index: 2;
+  }
+
+  .pixel-character-emilio-4 {
+    position: absolute;
+    left: 48%;
+    bottom: 10px;
+    width: 250px; /* Tamaño del personaje */
+    height: auto;
+    image-rendering: pixelated;
+    z-index: 2;
+  }
+  .pixel-character-ale-4 {
+    position: absolute;
+    left: 35%;
+    bottom: 20px;
+    width: 230px; /* Tamaño del personaje */
+    height: auto;
+    image-rendering: pixelated;
+    z-index: 2;
+  }
+
+  .pixel-character-emilio-5 {
+    position: absolute;
+    left: 35%;
+    bottom: 20px;
+    width: 250px; 
+    height: auto;
+    image-rendering: pixelated;
+    z-index: 2;
+  }
+  .pixel-character-ale-5 {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    width: 220px; 
+    height: auto;
+    image-rendering: pixelated;
+    z-index: 2;
+  }
+  @media (max-width: 767px) {
+
+    .pixel-character-emilio-1 {
+      width: 220px;
+      left: 10%;
+      bottom: 50px;
+    }
+    .pixel-character-ale-1 {
+      width: 200px;
+      left: 65%;
+      bottom: 50px;
+    }
+
+    .pixel-character-emilio-3,
+    .pixel-character-emilio-5 {
+      width: 220px;
+      left: 10%;
+      bottom: 50px;
+    }
   
+    .pixel-character-ale-3,
+    .pixel-character-ale-5 {
+      width: 200px;
+      left: 55%;
+      bottom: 50px;
+    }
+    .pixel-character-emilio-4 {
+      left: 48%;
+      bottom: 10px;
+      width: 250px; 
+    }
+    .pixel-character-ale-4 {
+      left: 5%;
+      bottom: 20px;
+      width: 230px; 
+    }
+  }
