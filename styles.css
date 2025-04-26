@@ -176,37 +176,42 @@ body, html {
   @media (max-width: 767px) {
 
     .pixel-character-emilio-1 {
-      width: 220px;
-      left: 10%;
+      width: 180px;
+      left: 5%;
       bottom: 50px;
     }
     .pixel-character-ale-1 {
-      width: 200px;
-      left: 65%;
+      width: 160px;
+      left: 60%;
       bottom: 50px;
     }
 
     .pixel-character-emilio-3,
     .pixel-character-emilio-5 {
-      width: 220px;
-      left: 10%;
+      width: 180px;
+      left: 5%;
       bottom: 50px;
     }
   
     .pixel-character-ale-3,
     .pixel-character-ale-5 {
-      width: 200px;
+      width: 160px;
       left: 55%;
       bottom: 50px;
     }
     .pixel-character-emilio-4 {
       left: 48%;
       bottom: 10px;
-      width: 250px; 
+      width: 180px; 
     }
     .pixel-character-ale-4 {
       left: 5%;
       bottom: 20px;
-      width: 230px; 
+      width: 160px; 
+    }
+    .floating-number {
+      top: 20px;
+      right: 20px;
+      width: 70px;
     }
   }
